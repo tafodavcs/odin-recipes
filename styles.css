@@ -1,11 +1,40 @@
 * {
-    box-sizing: border-box;
-    outline: 1px solid green;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: wheat;
+  background: burlywood;
+  font-family: sans-serif;
+  padding: 8px;
+}
+
+.card {
+  width: 700px;
+  background-color: wheat;
+  margin: 16px auto;
+  padding: 8px;
+  border: 1px solid saddlebrown;
+}
+
+.title {
+  padding: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: saddlebrown;
+}
+
+.index_menu li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  margin: 10px 5px;
+  background-color: saddlebrown;
+}
+
+.index_menu li a {
+  text-decoration: none;
+  color: white;
 }
